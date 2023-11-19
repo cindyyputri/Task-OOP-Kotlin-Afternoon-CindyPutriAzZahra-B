@@ -37,7 +37,7 @@ class Hero {
     fun lari() {
         checkHealth()
         println("$name sedang berlari...")
-        health -= 1
+        health -= 2
     }
 
     fun makan() {
